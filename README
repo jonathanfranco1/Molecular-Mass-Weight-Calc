@@ -1,0 +1,16 @@
+A C++ program to convert chemical formulas into molar masses.
+
+Included Files:
+- molarMass.cpp: the program that calculates the molar mass
+- mapGen.cpp: a helpful tool to add new elements to molarMass.cpp
+
+How to use calculator:
+1. Compile the molarMass.cpp on your favorite compiler.
+2. Run the compiled program like ./molarMass NH3.
+    - this returns "Molar mass: 17.034"
+
+How to use mass map generator:
+1. Compile mapGen.cpp.
+2. Run the executable and type in the elements and molar masses.
+3. Type done when finished.
+4. Copy the resulting text and paste into molarMass.cpp.
